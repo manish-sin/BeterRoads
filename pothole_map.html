@@ -1,0 +1,39 @@
+
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Google Maps - gmplot</title>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=visualization"></script>
+<script type="text/javascript">
+    function initialize() {
+        var map = new google.maps.Map(document.getElementById("map_canvas"), {
+            zoom: 12,
+            center: new google.maps.LatLng(28.393737899999994, 77.03196649)
+        });
+    const marker0 = new google.maps.Circle({strokeColor: '#FF0000',strokeOpacity: 1.0, strokeWeight: 1,fillColor: '#FF0000', fillOpacity: 0.3, map: map, center:new google.maps.LatLng(28.400805,77.022972), radius: 0.5});
+    marker0.addListener("click", () => {window.open("pot_holes_detected/gpscams.mp4_frame0.jpg");});
+    
+    const marker1 = new google.maps.Circle({strokeColor: '#FF0000',strokeOpacity: 1.0, strokeWeight: 1,fillColor: '#FF0000', fillOpacity: 0.3, map: map, center:new google.maps.LatLng(28.400805,77.022972), radius: 0.5});
+    marker1.addListener("click", () => {window.open("pot_holes_detected/gpscams.mp4_frame29.jpg");});
+    
+    const marker2 = new google.maps.Circle({strokeColor: '#FF0000',strokeOpacity: 1.0, strokeWeight: 1,fillColor: '#FF0000', fillOpacity: 0.3, map: map, center:new google.maps.LatLng(0.000000,77.023087), radius: 0.5});
+    marker2.addListener("click", () => {window.open("pot_holes_detected/gpscams.mp4_frame79.jpg");});
+    
+    const marker3 = new google.maps.Circle({strokeColor: '#FF0000',strokeOpacity: 1.0, strokeWeight: 1,fillColor: '#FF0000', fillOpacity: 0.3, map: map, center:new google.maps.LatLng(28.400807,77.023196), radius: 0.5});
+    marker3.addListener("click", () => {window.open("pot_holes_detected/gpscams.mp4_frame128.jpg");});
+    
+    const marker4 = new google.maps.Circle({strokeColor: '#FF0000',strokeOpacity: 1.0, strokeWeight: 1,fillColor: '#FF0000', fillOpacity: 0.3, map: map, center:new google.maps.LatLng(28.400805,77.023305), radius: 0.5});
+    marker4.addListener("click", () => {window.open("pot_holes_detected/gpscams.mp4_frame168.jpg");});
+        
+    }
+</script>
+</head>
+<h1> This Map hilights pot holes on your Roads</h1>
+<h5> Click on the red dots to see the pot hole </h5>    
+
+<h5> Source code:https://github.com/manish-sin/pothole_heatmap</h5>
+<body style="margin:0px; padding:0px;" onload="initialize()">
+    <div id="map_canvas" style="width: 100%; height: 84.5%;" />
+</body>
+</html>

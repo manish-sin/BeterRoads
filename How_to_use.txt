@@ -1,0 +1,32 @@
+This file explains how to use this project to plot a map from a video
+
+Note: As of current state of projects, Maps can ve ploted for only video, In future we develop,
+how to process multiple video and map them into single map
+
+Step 1: Place your video in the folder %road_survey_vid/upload_folder. Name the vido files as gpscams.mp4, else erro may occur in step 6
+Note 1: As of now the video should be taken in this specific (mention the link) method.
+When Android app is developed tkaing video will be much simpler
+
+Step 2: Run the setup.py
+
+Step 3: Run the Vid_to_frame.py
+
+Step 4: Locate the coordinates for croping (latitude (line no 42), Longtude(line no 46), Image(line no 47)) and change the value in coordinate_extraction.py and then run it.
+In order to find coordinates for croping open any of the frames in %frame folder in MS paintmove the cursor n the frame to get coordinate. In order to get an idea of how much area of image should be cropped\
+check these image in ROOT_DIR(LAT.jpg, LONG.jpg, img.jpg)
+Note 1: Replacing the coordinate is required beacuse of different aspect ratio of phone and this needs to be done only once for a phone
+Note 2: Here we can run change the value of how many frames do we wish to keep for processing.
+To do this change the value of variable named "extract_fps"
+Note 3: Once this coordinate_extraction.py is executed check no. of images in %road_images folder   folder much much higher than %wrong_coordinate_extraction else it would meand coodinate extraction is not happeig properly, You could also check long.jpg, lat.jpg image at regular frequency while this progrm is being executed
+Note 4: If you are using the default video in this repository you dont need to check coordinates, simply execute coordinae_extraction.py
+
+Step 5: Run the demo.py file
+
+Step 6: Run the post_processing.py
+
+Step 7: Run the mapper file
+
+Step 8: pothole_map.html is output file which will show the map
+
+Step 9: Images stored in the %pot_holes_detected folder will be refer when the red circle are clicked
+
