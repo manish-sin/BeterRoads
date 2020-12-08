@@ -1,11 +1,11 @@
 This file explains how to use this project to plot a map from a video
 
-Note: As of current state of projects, Maps can ve ploted for only video, In future we develop,
+Note: As of current state of projects, Maps can ve ploted for only one video, In future we will develop ,
 how to process multiple video and map them into single map
 
-Step 1: Place your video in the folder %road_survey_vid/upload_folder. Name the vido files as gpscams.mp4, else erro may occur in step 6
-Note 1: As of now the video should be taken in this specific (mention the link) method.
-When Android app is developed tkaing video will be much simpler
+Step 1: Place your video in the folder %road_survey_vid/upload_folder. Name the vido files as gpscams.mp4, else erro may occur in step 6. If you dont have a video we have already placed a small sample video, you can Skip this step.
+Note 1: As of now the video should be taken in this(check this http://xplorml.in/?p=29) specific way.
+When Android app is developed taking video will be much simpler
 
 Step 2: Run the setup.py
 
@@ -24,7 +24,7 @@ Step 5: Run the demo.py file
 
 Step 6: Run the post_processing.py
 
-Step 7: Run the mapper file
+Step 7: Run the maper.py file
 
 Step 8: pothole_map.html is output file which will show the map
 
