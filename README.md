@@ -24,7 +24,7 @@ Contributions are required form various filed, naming major one,
 #### Projects
 [This video](www.betteroads.net/intro#contribute) Gives a comprehensive overview of what part of development can contributor with these kind of skill can help. We have divided the development into several project one can view these projects in the Project section of repository. 
 
-These projects a interdependent,  its quite possible that all project wont start together. Hence you could share your contact detail and your interest area, we we shall contact you we start a project aligned with you interest. However if you want to start a discussion right away you may start a topic in the [discussion section]. Meanwhile you may start contributing be resolving issues mentioned in the [issues section](https://github.com/manish-sin/BetteRoads/issues) of the repository.
+These projects a interdependent,  its quite possible that all project wont start together. Hence you could share your contact detail and your interest area, we we shall contact you we start a project aligned with you interest. However if you want to start a discussion right away you may start a topic in the [discussion section](https://github.com/manish-sin/BetteRoads/discussions). Meanwhile you may start contributing be resolving issues mentioned in the [issues section](https://github.com/manish-sin/BetteRoads/issues) of the repository.
 #### For first Time contributors
 
 For the First Time contributors check [this video](https://www.youtube.com/watch?v=c6b6B9oN4Vg) by Cami Williams to get started contributing. You can start right from the improving the comments in the programs.
