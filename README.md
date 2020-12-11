@@ -3,7 +3,7 @@
 Betteroads projects is a project in the hope of making our road better
 We are developing a portal on which, people can monitor the  roads and also can share the condition of their roads in a convenient way
 ##### Introductory Video
-This [Video](www.betteroads.net/#intro) is the intro video that gives an idea, why this portal can be useful for people.
+This [Video](https://www.betteroads.net/index#intro) is the intro video that gives an idea, why this portal can be useful for people.
 ##### Introductory Website
 This [Site](www.betteroads.net) shade more light on how thing will work to achieve this website. It also says what are various ways one con contribute
 ##### Main Website
