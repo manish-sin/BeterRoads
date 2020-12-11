@@ -7,7 +7,7 @@ This [Video](https://www.betteroads.net/index#intro) is the intro video that giv
 ##### Introductory Website
 This [Site](https://www.betteroads.net) shade more light on how thing will work to achieve this website. It also says what are various ways one con contribute
 ##### Main Website
-To get an glimpse of how will the working website looks, visit [www.betteroads.net](www.betteroads.net). It has a very primitive user interface, which will be improved soon
+This  whebsite [(www.betteroads.net)](https://www.betteroads.net/intro) will be the final result of this project. It has a very primitive user interface we will be improving it a lot
 ##### Blog
 This [blog](https://www.xplorml.in) explain the flow of project and also the important potion of the codes. However we have also given sufficient comments in the program itself.
 
